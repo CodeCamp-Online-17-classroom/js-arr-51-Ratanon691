@@ -1,12 +1,12 @@
-# js-lab-136
-### Lab136 Array: หาคะแนนเฉลี่ย
-จงหาคะแนนเฉลี่ยแบบถ่วงน้ำหนัก
+# js-lab-137
+### Lab137 Array: กระจาย element 
+จงกระจาย element ที่ซ้อนกันอยู่ภายใน array ให้กระจายออกมาที่ element ชั้นนอกสุด
 
 ```JavaScript
-const scores = [
-  { score: 90, subject: 'HTML', weight: 0.2 },
-  { score: 95, subject: 'CSS', weight: 0.3 },
-  { score: 85, subject: 'JavaScript', weight: 0.5 }
+let flattened = [
+  [0, 1],
+  [2, 3],
+  [4, 5]
 ];
-// expected result: 89
+// expected result: [0, 1, 2, 3, 4, 5]
 ```
